@@ -1,0 +1,171 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 1 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\User\source\GithubRepos\Benchmarks\ReadTextFile\bin\Release\net6.0\04e82c28-7358-4274-b6f1-5917981e6a34
+// command took 0.8s and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\User\source\GithubRepos\Benchmarks\ReadTextFile\bin\Release\net6.0\04e82c28-7358-4274-b6f1-5917981e6a34
+// command took 11.66s and exited with 1
+// start dotnet  build -c Release --no-restore --no-dependencies /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\User\source\GithubRepos\Benchmarks\ReadTextFile\bin\Release\net6.0\04e82c28-7358-4274-b6f1-5917981e6a34
+// command took 1.64s and exited with 0
+// ***** Done, took 00:00:14 (14.15 sec)   *****
+// Found 1 benchmarks:
+//   ReadTextFile.Result: DefaultJob
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: ReadTextFile.Result: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 04e82c28-7358-4274-b6f1-5917981e6a34.dll --benchmarkName MyBenchmarks.ReadTextFile.Result --job Default --benchmarkId 0 in C:\Users\User\source\GithubRepos\Benchmarks\ReadTextFile\bin\Release\net6.0\04e82c28-7358-4274-b6f1-5917981e6a34\bin\Release\net6.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 6.0.6 (6.0.622.26707), X64 RyuJIT AVX2
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX2,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 133800.00 ns, 133.8000 us/op
+Lines read: 6,509,514
+WorkloadJitting  1: 1 op, 1015321900.00 ns, 1.0153 s/op
+
+OverheadJitting  2: 1 op, 200.00 ns, 200.0000 ns/op
+Lines read: 6,509,514
+WorkloadJitting  2: 1 op, 1003133500.00 ns, 1.0031 s/op
+
+Lines read: 6,509,514
+WorkloadWarmup   1: 1 op, 952079900.00 ns, 952.0799 ms/op
+Lines read: 6,509,514
+WorkloadWarmup   2: 1 op, 929963600.00 ns, 929.9636 ms/op
+Lines read: 6,509,514
+WorkloadWarmup   3: 1 op, 929146000.00 ns, 929.1460 ms/op
+Lines read: 6,509,514
+WorkloadWarmup   4: 1 op, 927171400.00 ns, 927.1714 ms/op
+Lines read: 6,509,514
+WorkloadWarmup   5: 1 op, 926278600.00 ns, 926.2786 ms/op
+Lines read: 6,509,514
+WorkloadWarmup   6: 1 op, 927725400.00 ns, 927.7254 ms/op
+Lines read: 6,509,514
+WorkloadWarmup   7: 1 op, 938078600.00 ns, 938.0786 ms/op
+Lines read: 6,509,514
+WorkloadWarmup   8: 1 op, 937529600.00 ns, 937.5296 ms/op
+Lines read: 6,509,514
+WorkloadWarmup   9: 1 op, 925156600.00 ns, 925.1566 ms/op
+Lines read: 6,509,514
+WorkloadWarmup  10: 1 op, 930829100.00 ns, 930.8291 ms/op
+Lines read: 6,509,514
+WorkloadWarmup  11: 1 op, 932096900.00 ns, 932.0969 ms/op
+Lines read: 6,509,514
+WorkloadWarmup  12: 1 op, 934142300.00 ns, 934.1423 ms/op
+Lines read: 6,509,514
+WorkloadWarmup  13: 1 op, 938278800.00 ns, 938.2788 ms/op
+Lines read: 6,509,514
+WorkloadWarmup  14: 1 op, 933362500.00 ns, 933.3625 ms/op
+
+// BeforeActualRun
+Lines read: 6,509,514
+WorkloadActual   1: 1 op, 924897500.00 ns, 924.8975 ms/op
+Lines read: 6,509,514
+WorkloadActual   2: 1 op, 930412900.00 ns, 930.4129 ms/op
+Lines read: 6,509,514
+WorkloadActual   3: 1 op, 961548100.00 ns, 961.5481 ms/op
+Lines read: 6,509,514
+WorkloadActual   4: 1 op, 933533100.00 ns, 933.5331 ms/op
+Lines read: 6,509,514
+WorkloadActual   5: 1 op, 928525400.00 ns, 928.5254 ms/op
+Lines read: 6,509,514
+WorkloadActual   6: 1 op, 932898600.00 ns, 932.8986 ms/op
+Lines read: 6,509,514
+WorkloadActual   7: 1 op, 931360900.00 ns, 931.3609 ms/op
+Lines read: 6,509,514
+WorkloadActual   8: 1 op, 934968600.00 ns, 934.9686 ms/op
+Lines read: 6,509,514
+WorkloadActual   9: 1 op, 930367700.00 ns, 930.3677 ms/op
+Lines read: 6,509,514
+WorkloadActual  10: 1 op, 933935200.00 ns, 933.9352 ms/op
+Lines read: 6,509,514
+WorkloadActual  11: 1 op, 935583200.00 ns, 935.5832 ms/op
+Lines read: 6,509,514
+WorkloadActual  12: 1 op, 934203500.00 ns, 934.2035 ms/op
+Lines read: 6,509,514
+WorkloadActual  13: 1 op, 927619300.00 ns, 927.6193 ms/op
+Lines read: 6,509,514
+WorkloadActual  14: 1 op, 930304100.00 ns, 930.3041 ms/op
+Lines read: 6,509,514
+WorkloadActual  15: 1 op, 932936300.00 ns, 932.9363 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 924897500.00 ns, 924.8975 ms/op
+WorkloadResult   2: 1 op, 930412900.00 ns, 930.4129 ms/op
+WorkloadResult   3: 1 op, 933533100.00 ns, 933.5331 ms/op
+WorkloadResult   4: 1 op, 928525400.00 ns, 928.5254 ms/op
+WorkloadResult   5: 1 op, 932898600.00 ns, 932.8986 ms/op
+WorkloadResult   6: 1 op, 931360900.00 ns, 931.3609 ms/op
+WorkloadResult   7: 1 op, 934968600.00 ns, 934.9686 ms/op
+WorkloadResult   8: 1 op, 930367700.00 ns, 930.3677 ms/op
+WorkloadResult   9: 1 op, 933935200.00 ns, 933.9352 ms/op
+WorkloadResult  10: 1 op, 935583200.00 ns, 935.5832 ms/op
+WorkloadResult  11: 1 op, 934203500.00 ns, 934.2035 ms/op
+WorkloadResult  12: 1 op, 927619300.00 ns, 927.6193 ms/op
+WorkloadResult  13: 1 op, 930304100.00 ns, 930.3041 ms/op
+WorkloadResult  14: 1 op, 932936300.00 ns, 932.9363 ms/op
+
+// AfterAll
+// Benchmark Process 52248 has exited with code 0.
+
+Mean = 931.539 ms, StdErr = 0.817 ms (0.09%), N = 14, StdDev = 3.057 ms
+Min = 924.898 ms, Q1 = 930.320 ms, Median = 932.130 ms, Q3 = 933.835 ms, Max = 935.583 ms
+IQR = 3.515 ms, LowerFence = 925.048 ms, UpperFence = 939.107 ms
+ConfidenceInterval = [928.091 ms; 934.988 ms] (CI 99.9%), Margin = 3.448 ms (0.37% of Mean)
+Skewness = -0.58, Kurtosis = 2.28, MValue = 2
+
+// ** Remained 0 (0.0%) benchmark(s) to run. Estimated finish 2022-08-27 11:48 (0h 0m from now) **
+Successfully reverted power plan (GUID: 381b4222-f694-41f0-9685-ff5bb260df2e FriendlyName: Balanced)
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\MyBenchmarks.ReadTextFile-report.csv
+  BenchmarkDotNet.Artifacts\results\MyBenchmarks.ReadTextFile-report-github.md
+  BenchmarkDotNet.Artifacts\results\MyBenchmarks.ReadTextFile-report.html
+
+// * Detailed results *
+ReadTextFile.Result: DefaultJob
+Runtime = .NET 6.0.6 (6.0.622.26707), X64 RyuJIT AVX2; GC = Concurrent Workstation
+Mean = 931.539 ms, StdErr = 0.817 ms (0.09%), N = 14, StdDev = 3.057 ms
+Min = 924.898 ms, Q1 = 930.320 ms, Median = 932.130 ms, Q3 = 933.835 ms, Max = 935.583 ms
+IQR = 3.515 ms, LowerFence = 925.048 ms, UpperFence = 939.107 ms
+ConfidenceInterval = [928.091 ms; 934.988 ms] (CI 99.9%), Margin = 3.448 ms (0.37% of Mean)
+Skewness = -0.58, Kurtosis = 2.28, MValue = 2
+-------------------- Histogram --------------------
+[923.233 ms ; 937.248 ms) | @@@@@@@@@@@@@@
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet=v0.13.2, OS=Windows 10 (10.0.19044.1889/21H2/November2021Update)
+AMD Ryzen 7 3700X, 1 CPU, 16 logical and 8 physical cores
+.NET SDK=6.0.301
+  [Host]     : .NET 6.0.6 (6.0.622.26707), X64 RyuJIT AVX2
+  DefaultJob : .NET 6.0.6 (6.0.622.26707), X64 RyuJIT AVX2
+
+
+| Method |     Mean |   Error |  StdDev |
+|------- |---------:|--------:|--------:|
+| Result | 931.5 ms | 3.45 ms | 3.06 ms |
+
+// * Hints *
+Outliers
+  ReadTextFile.Result: Default -> 1 outlier  was  removed (961.55 ms)
+
+// * Legends *
+  Mean   : Arithmetic mean of all measurements
+  Error  : Half of 99.9% confidence interval
+  StdDev : Standard deviation of all measurements
+  1 ms   : 1 Millisecond (0.001 sec)
+
+// ***** BenchmarkRunner: End *****
+Run time: 00:00:29 (29.39 sec), executed benchmarks: 1
+
+Global total time: 00:00:43 (43.77 sec), executed benchmarks: 1
+// * Artifacts cleanup *
