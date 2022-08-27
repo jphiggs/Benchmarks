@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pipelines", "Pipelines\Pipelines.csproj", "{27DA86F7-71EA-4A26-A0AD-7E3EEF7277D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pipelines_v2", "Pipelines_v2\Pipelines_v2.csproj", "{2A296310-52E3-4DE6-85DC-86FB4847B147}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{27DA86F7-71EA-4A26-A0AD-7E3EEF7277D2}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{27DA86F7-71EA-4A26-A0AD-7E3EEF7277D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27DA86F7-71EA-4A26-A0AD-7E3EEF7277D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A296310-52E3-4DE6-85DC-86FB4847B147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A296310-52E3-4DE6-85DC-86FB4847B147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A296310-52E3-4DE6-85DC-86FB4847B147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A296310-52E3-4DE6-85DC-86FB4847B147}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

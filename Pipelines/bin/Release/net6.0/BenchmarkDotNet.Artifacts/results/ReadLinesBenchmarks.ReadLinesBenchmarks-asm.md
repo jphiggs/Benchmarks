@@ -68,7 +68,7 @@ M02_L01:
        mov       [rbp+0FFC0],rsp
        mov       rsi,rcx
        cmp       [rsi],esi
-       mov       rcx,7FFF47124928
+       mov       rcx,7FFF0BDE4928
        mov       edx,2BD
        call      CORINFO_HELP_GETSHARED_GCTHREADSTATIC_BASE
        mov       rax,[rax+18]
@@ -244,7 +244,7 @@ M02_L01:
        mov       [rbp+0FFC0],rsp
        mov       rsi,rcx
        cmp       [rsi],esi
-       mov       rcx,7FFF47134928
+       mov       rcx,7FFF0BDD4928
        mov       edx,2BD
        call      CORINFO_HELP_GETSHARED_GCTHREADSTATIC_BASE
        mov       rax,[rax+18]
@@ -420,7 +420,7 @@ M02_L01:
        mov       [rbp+0FFC0],rsp
        mov       rsi,rcx
        cmp       [rsi],esi
-       mov       rcx,7FFF47124928
+       mov       rcx,7FFF0BDA4928
        mov       edx,2BD
        call      CORINFO_HELP_GETSHARED_GCTHREADSTATIC_BASE
        mov       rax,[rax+18]
@@ -592,7 +592,7 @@ M02_L01:
        mov       [rbp+0FFC0],rsp
        mov       rsi,rcx
        cmp       [rsi],esi
-       mov       rcx,7FFF47104928
+       mov       rcx,7FFF0BDE4928
        mov       edx,2BD
        call      CORINFO_HELP_GETSHARED_GCTHREADSTATIC_BASE
        mov       rax,[rax+18]
@@ -768,7 +768,7 @@ M02_L01:
        mov       [rbp+0FFC0],rsp
        mov       rsi,rcx
        cmp       [rsi],esi
-       mov       rcx,7FFF47124928
+       mov       rcx,7FFF0BDD4928
        mov       edx,2BD
        call      CORINFO_HELP_GETSHARED_GCTHREADSTATIC_BASE
        mov       rax,[rax+18]
@@ -944,7 +944,7 @@ M02_L01:
        mov       [rbp+0FFC0],rsp
        mov       rsi,rcx
        cmp       [rsi],esi
-       mov       rcx,7FFF47104928
+       mov       rcx,7FFF0BDB4928
        mov       edx,2BD
        call      CORINFO_HELP_GETSHARED_GCTHREADSTATIC_BASE
        mov       rax,[rax+18]
@@ -1116,7 +1116,7 @@ M02_L01:
        mov       [rbp+0FFC0],rsp
        mov       rsi,rcx
        cmp       [rsi],esi
-       mov       rcx,7FFF47114928
+       mov       rcx,7FFF0BDD4928
        mov       edx,2BD
        call      CORINFO_HELP_GETSHARED_GCTHREADSTATIC_BASE
        mov       rax,[rax+18]
@@ -1292,7 +1292,7 @@ M02_L01:
        mov       [rbp+0FFC0],rsp
        mov       rsi,rcx
        cmp       [rsi],esi
-       mov       rcx,7FFF47114928
+       mov       rcx,7FFF0BDD4928
        mov       edx,2BD
        call      CORINFO_HELP_GETSHARED_GCTHREADSTATIC_BASE
        mov       rax,[rax+18]
@@ -1468,7 +1468,7 @@ M02_L01:
        mov       [rbp+0FFC0],rsp
        mov       rsi,rcx
        cmp       [rsi],esi
-       mov       rcx,7FFF47104928
+       mov       rcx,7FFF0BDD4928
        mov       edx,2BD
        call      CORINFO_HELP_GETSHARED_GCTHREADSTATIC_BASE
        mov       rax,[rax+18]
@@ -1640,7 +1640,7 @@ M02_L01:
        mov       [rbp+0FFC0],rsp
        mov       rsi,rcx
        cmp       [rsi],esi
-       mov       rcx,7FFF47114928
+       mov       rcx,7FFF0BDA4928
        mov       edx,2BD
        call      CORINFO_HELP_GETSHARED_GCTHREADSTATIC_BASE
        mov       rax,[rax+18]
@@ -1816,7 +1816,7 @@ M02_L01:
        mov       [rbp+0FFC0],rsp
        mov       rsi,rcx
        cmp       [rsi],esi
-       mov       rcx,7FFF47124928
+       mov       rcx,7FFF0BDC4928
        mov       edx,2BD
        call      CORINFO_HELP_GETSHARED_GCTHREADSTATIC_BASE
        mov       rax,[rax+18]
@@ -1992,7 +1992,7 @@ M02_L01:
        mov       [rbp+0FFC0],rsp
        mov       rsi,rcx
        cmp       [rsi],esi
-       mov       rcx,7FFF47114928
+       mov       rcx,7FFF0BDD4928
        mov       edx,2BD
        call      CORINFO_HELP_GETSHARED_GCTHREADSTATIC_BASE
        mov       rax,[rax+18]
