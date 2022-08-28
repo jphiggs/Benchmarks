@@ -8,6 +8,7 @@ AMD Ryzen 7 3700X, 1 CPU, 16 logical and 8 physical cores
 
 
 ```
-|          Method |     Mean |    Error |   StdDev |
-|---------------- |---------:|---------:|---------:|
-| SynchronousRead | 927.0 ms | 12.17 ms | 10.79 ms |
+|           Method |         Mean |       Error |      StdDev | Ratio |
+|----------------- |-------------:|------------:|------------:|------:|
+|  SynchronousRead | 909,710.8 μs | 3,337.66 μs | 2,958.75 μs | 1.000 |
+| AsynchronousRead |     221.2 μs |    16.85 μs |    47.24 μs | 0.000 |
